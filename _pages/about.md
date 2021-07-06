@@ -20,6 +20,6 @@ Research Interests
 
 Publications
 ------
-[[Arxiv](https://arxiv.org/pdf/2102.05429.pdf)] **Node-Level Membership Inference Attacks Against Graph Neural Networks**. 
+[[arxiv](https://arxiv.org/pdf/2102.05429.pdf)] **Node-Level Membership Inference Attacks Against Graph Neural Networks**. 
 Xinlei He, Rui Wen, **Yixin Wu**, Michael Backes, Yun Shen, Yang Zhang. 
 
