@@ -1,6 +1,6 @@
 ---
 permalink: /
-# title: "Yixin Wu's Homepage"
+title: " "
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -20,6 +20,6 @@ Research Interests
 
 Publications
 ------
-**Node-Level Membership Inference Attacks Against Graph Neural Networks**. 
+[[Arxiv](https://arxiv.org/pdf/2102.05429.pdf)] **Node-Level Membership Inference Attacks Against Graph Neural Networks**. 
 Xinlei He, Rui Wen, **Yixin Wu**, Michael Backes, Yun Shen, Yang Zhang. 
-[[Arxiv](https://arxiv.org/pdf/2102.05429.pdf)]
+
