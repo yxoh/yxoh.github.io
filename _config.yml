@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yixin Wu"
   avatar           : "profile1.png"
-  bio              : "soon-to-be Ph.D. Student at CISPA Helmholtz Center for Information Security"
-  location         : "Sichuan, China"
+  bio              : "first-year Ph.D. Student at CISPA Helmholtz Center for Information Security"
+  location         : "Saarbrücken, Germany"
   # employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?user=NNnpxzAAAAAJ&view_op=list_works"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=NNnpxzAAAAAJ"
+  email            : "yixin.wu@cispa.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   # uri              :
   # bitbucket        :
