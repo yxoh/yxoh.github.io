@@ -18,7 +18,7 @@ Research Interests
 
 Publications
 ------
-[[arxiv](https://arxiv.org/pdf/2102.05429.pdf)] **On the Proactive Generation of Unsafe Images From Text-To-Image Models Using Benign Prompts**. 
+[[arxiv](https://arxiv.org/pdf/2310.16613.pdf))] **On the Proactive Generation of Unsafe Images From Text-To-Image Models Using Benign Prompts**. 
 **Yixin Wu**, Ning Yu, Michael Backes, Yun Shen, Yang Zhang. 
 
 [[USENIX Security 2024](https://arxiv.org/pdf/2310.11970.pdf)] **Quantifying Privacy Risks of Prompts in Visual Prompt Learning**. 
