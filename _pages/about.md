@@ -20,10 +20,13 @@ Publications
 ------
 [[arxiv](https://arxiv.org/pdf/2102.05429.pdf)] **On the Proactive Generation of Unsafe Images From Text-To-Image Models Using Benign Prompts**. 
 **Yixin Wu**, Ning Yu, Michael Backes, Yun Shen, Yang Zhang. 
+
 [[USENIX Security 2024](https://arxiv.org/pdf/2310.11970.pdf)] **Quantifying Privacy Risks of Prompts in Visual Prompt Learning**. 
 **Yixin Wu**, Rui Wen, Michael Backes, Pascal Berrang, Mathias Humbert, Yun Shen, Yang Zhang. 
+
 [[arxiv](https://arxiv.org/pdf/2210.00968.pdf)] **Membership Inference Attacks Against Text-To-Image Generation Models**. 
 **Yixin Wu**, Ning Yu, Zheng Li, Michael Backes, Yang Zhang. 
+
 [[arxiv](https://arxiv.org/pdf/2102.05429.pdf)] **Node-Level Membership Inference Attacks Against Graph Neural Networks**. 
 Xinlei He, Rui Wen, **Yixin Wu**, Michael Backes, Yun Shen, Yang Zhang. 
 
