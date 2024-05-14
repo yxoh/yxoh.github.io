@@ -20,7 +20,7 @@ Publications
 [[USENIX Security 2024](https://arxiv.org/pdf/2310.11970.pdf)] **Quantifying Privacy Risks of Prompts in Visual Prompt Learning**. 
 **Yixin Wu**, Rui Wen, Michael Backes, Pascal Berrang, Mathias Humbert, Yun Shen, Yang Zhang. 
 
-[[PoPETS 2024](https://yxoh.github.io/)] **Link Stealing Attacks Against Inductive Graph Neural Networks**. 
+[[PoPETS 2024](https://arxiv.org/pdf/2405.05784)] **Link Stealing Attacks Against Inductive Graph Neural Networks**. 
 **Yixin Wu**, Xinlei He, Pascal Berrang, Mathias Humbert, Michael Backes, Neil Zhenqiang Gong, Yang Zhang. 
 
 [[arxiv](https://arxiv.org/pdf/2310.16613.pdf)] **On the Proactive Generation of Unsafe Images From Text-To-Image Models Using Benign Prompts**. 
