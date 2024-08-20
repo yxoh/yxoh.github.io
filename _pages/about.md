@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: profile1.png
+  image: profile2.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Im Oberen Werk 1</p>
