@@ -47,7 +47,15 @@
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    <div class="title">
+      {% if entry.website %}
+        <a href="{{ entry.website }}" target="_blank" class="paper-link">
+          {{ entry.title }}
+        </a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -364,3 +372,16 @@
     {% endif %}
   </div>
 </div>
+
+<style>
+.paper-link {
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.paper-link:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+</style>
