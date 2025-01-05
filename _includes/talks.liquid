@@ -1,0 +1,68 @@
+<div class="talks">
+  <ul class="list-group list-group-flush">
+    {% for talk in site.data.talks %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+          <span class="badge font-weight-bold text-uppercase align-middle talk-date">
+            {{ talk.date }}
+          </span>
+        </div>
+        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <div class="title ml-1 ml-md-4">{{ talk.title }}</div>
+          <div class="periodical ml-1 ml-md-4">{{ talk.venue }}</div>
+          <div class="links ml-1 ml-md-4">
+            {% if talk.slides %}
+              <a href="{{ talk.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            {% endif %}
+            {% if talk.video %}
+              <a href="{{ talk.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<style>
+.talks .date-column {
+  min-width: 100px;
+}
+
+.talks .badge {
+  padding: 5px 10px;
+}
+
+.talks .talk-date {
+  background-color: var(--global-theme-color) !important;
+  color: white !important;
+  font-size: 0.75rem;
+}
+
+.talks .title {
+  font-size: 1rem;
+  color: var(--global-text-color);
+}
+
+.talks .periodical {
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+.talks .list-group-item {
+  background-color: var(--global-bg-color);
+  border-color: var(--global-divider-color);
+}
+
+.talks .btn {
+  color: var(--global-text-color);
+  border-color: var(--global-text-color-light);
+}
+
+.talks .btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+</style>

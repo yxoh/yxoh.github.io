@@ -160,6 +160,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  papers:
+    output: true
+    permalink: /papers/:path/
 
 announcements:
   enabled: true
