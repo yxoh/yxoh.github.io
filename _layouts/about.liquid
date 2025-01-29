@@ -39,15 +39,16 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
-
+    
     <!-- Research Interests -->
       {% if page.research_interests %}
+        <hr>
         <h2>Research Interests</h2>
         {% include research_interests.liquid %}
       {% endif %}
-
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
+      <hr>
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
@@ -56,6 +57,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
+      <hr>
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -64,6 +66,7 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr>
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
@@ -72,6 +75,7 @@ layout: default
 
     <!-- Talks -->
     {% if page.talks %}
+      <hr>
       <h2>
         <a href="{{ '/talks/' | relative_url }}" style="color: inherit">Talks</a>
       </h2>
@@ -80,6 +84,7 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
+      <hr>
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 

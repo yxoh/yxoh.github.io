@@ -1,17 +1,37 @@
-<div class="publications">
-  {% bibliography -f papers -q @*[selected=true]* %}
+<div class="publications selected-publications">
+  {% bibliography -f papers -q @*[selected=true]* --group_by none %}
 </div>
 
-<!-- 确保使用相同的样式 -->
 <style>
-.paper-link {
-  color: var(--global-text-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+.selected-publications {
+  .bibliography {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 
-.paper-link:hover {
-  color: var(--global-theme-color);
-  text-decoration: none;
+  .bibliography li {
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+    border: none !important;  /* 强制移除分割线 */
+  }
+
+  .bibliography .title {
+    font-size: 0.95em;
+    margin: 0;
+  }
+
+  .bibliography .author {
+    font-size: 0.9em;
+  }
+
+  .bibliography h2 {
+    display: none !important;  /* 强制隐藏年份标题 */
+  }
+
+  /* 移除年份分组相关的样式 */
+  .bibliography > ul {
+    border: none;
+    padding: 0;
+  }
 }
 </style>
