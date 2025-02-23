@@ -1,6 +1,6 @@
 ---
 layout: paper
-permalink: /papers/usenix24/
+permalink: /papers/usenix24_old/
 title: "Quantifying Privacy Risks of Prompts in Visual Prompt Learning"
 teaser: "/assets/img/publication_preview/usenix24.jpeg"  # 添加图片路径
 teaser_caption: "Overview of prompt usage and inference attacks. The prompt is a pixel patch. The prompted image is an original image with an added prompt. Property inference infers sensitive properties of the target prompt's training dataset that the PaaS provider does not intend to disclose. Membership inference infers whether a given sample was in the target prompt's training dataset."
