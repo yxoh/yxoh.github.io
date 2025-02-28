@@ -2,6 +2,7 @@
 layout: paper
 permalink: /papers/usenix25a/
 title: "Synthetic Artifact Auditing: Tracing LLM-Generated Synthetic Data Usage in Downstream Applications"
+tab_title: "Synthetic Artifact Auditing"
 authors: 
   - name: "Yixin Wu"
     affiliation: "CISPA Helmholtz Center for Information Security"
@@ -16,6 +17,9 @@ authors:
 conference: "USENIX Security Symposium 2025"
 
 content_blocks:
+  - title: "Novel Concept"
+    text: "We introduce the concept of synthetic artifact auditing. Given a target artifact, we aim to determine whether the synthetic data was involved in the developing process."
+    image: "/assets/img/publication_preview/usenix25a_concept.jpeg"
   - title: "Motivation"
     text: |
       Synthetic data have the potential to contain biases and hallucination. In downstream training and analysis process, the bias and inaccurate information could undermine the reliability of the decision-making process.
@@ -33,9 +37,6 @@ content_blocks:
       - **Novel Techniques**: We propose an auditing framework with three methods that require no disclosure of proprietary training specifics: metric-based auditing, tuning-based auditing, and classification-based auditing. This framework is extendable, currently supporting auditing for classifiers, generators, and statistical plots.
   
       - **Extensive Evaluation**: We evaluate our auditing framework on seven downstream tasks across three training scenarios. The evaluation demonstrates the effectiveness of all proposed auditing methods across all these tasks.
-  - title: "Concept"
-    text: "We introduce the concept of synthetic artifact auditing. Given a target artifact, we aim to determine whether the synthetic data was involved in the developing process."
-    image: "/assets/img/publication_preview/usenix25a_concept.jpeg"
   - title: "Real Data vs. Synthetic Data (Zero-Shot)"
     image: "/assets/img/publication_preview/usenix25a_intuition2.jpeg"
     image_caption: |
