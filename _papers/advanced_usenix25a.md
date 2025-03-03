@@ -79,10 +79,8 @@ content_blocks:
       Our work has a real-world impact in promoting the responsible use of synthetic data and aligning with corresponding regulations and laws. Regulatory and governmental bodies are increasingly prioritizing data governance and transparency in the development of AI systems. For instance, the UK's ICO requires documentation of synthetic data creation and its properties. Similarly, California recently passed Law AB 2013, mandating the disclosure of training datasets, including the use of synthetic data. Our framework provides a practical means for third parties to audit artifacts without requiring the disclosure of proprietary training details by artifact owners. This supports compliance with data governance and transparency requirements, enhances alignment with regulatory and legal standards (e.g., EU AI Act), and facilitates responsible and accountable AI practices.
 
 
-paper: "."
+paper: "https://arxiv.org/pdf/2502.00808"
 code: "https://github.com/TrustAIRLab/synthetic_artifact_auditing"
-video: "."
-slides: "."
 citation: |
   @inproceedings{WYSBZ25,
     title={Synthetic Artifact Auditing: Tracing LLM-Generated Synthetic Data Usage in Downstream Applications},
