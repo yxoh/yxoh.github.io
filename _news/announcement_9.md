@@ -4,4 +4,4 @@ date: 2025-03-12 00:00:00-0000
 inline: true
 ---
 
-I was selected as [2025 ML and Systems Rising Star](https://mlcommons.org/about-us/programs/)!
+I was selected as a [ML and Systems Rising Star](https://mlcommons.org/about-us/programs/)!
