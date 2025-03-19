@@ -16,8 +16,8 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td>
+            <th scope="row" style="width: 85px; padding-right: 0;">{{ item.date | date: "%b %Y" }}</th>
+            <td style="padding-left: 10px;">
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
@@ -32,3 +32,23 @@
     <p>No news so far...</p>
   {% endif %}
 </div>
+
+<style>
+.news table {
+  margin-bottom: 0;
+}
+
+.news tr {
+  vertical-align: top;
+}
+
+.news td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.news th {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+</style>

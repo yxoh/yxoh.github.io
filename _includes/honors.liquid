@@ -1,0 +1,69 @@
+<div class="honors">
+  <ul class="list-group list-group-flush">
+    {% for honor in site.data.honors %}
+    <li class="list-group-item">
+      <div class="row g-0">
+        <div class="col-2 text-center date-column">
+          <span class="badge font-weight-bold text-uppercase align-middle">
+            {{ honor.year }}
+          </span>
+        </div>
+        <div class="col-10">
+          <div class="honor-content">
+            <span class="title">{{ honor.title }}</span>
+            {% if honor.description %}
+            <span class="description">{{ honor.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<style>
+.honors .list-group-item {
+  padding: 0.5rem 0;
+  border: none;
+}
+
+.honors .date-column {
+  min-width: 60px;  /* 进一步减小宽度 */
+  padding: 0;  /* 移除所有内边距 */
+}
+
+.honors .badge {
+  background-color: var(--global-theme-color) !important;
+  color: white !important;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+}
+
+.honors .honor-content {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  line-height: 1.3;
+  margin-left: -50px;  /* 将内容向左移动 */
+}
+
+.honors .title {
+  font-weight: 500;
+  color: var(--global-text-color);
+}
+
+.honors .description {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  .honors .honor-content {
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-left: 0;  /* 在移动设备上不移动 */
+  }
+}
+</style>

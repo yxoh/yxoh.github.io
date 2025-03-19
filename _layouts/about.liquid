@@ -46,6 +46,14 @@ layout: default
         <h2>Research Interests</h2>
         {% include research_interests.liquid %}
       {% endif %}
+
+    <!-- Honors and Awards -->
+    {% if page.honors %}
+    <hr>
+    <h2>Honors and Awards</h2>
+    {% include honors.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <hr>
