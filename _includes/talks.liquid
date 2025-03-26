@@ -35,7 +35,16 @@
 </div>
 
 <style>
+.talks {
+  background-color: var(--global-bg-color);
+}
+
+.talks .list-group {
+  background-color: var(--global-bg-color);
+}
+
 .talks .list-group-item {
+  background-color: var(--global-bg-color);
   padding: 1rem 0;
   border: none;
   border-bottom: 1px solid var(--global-divider-color);
@@ -52,7 +61,7 @@
 
 .talks .badge {
   background-color: var(--global-theme-color) !important;
-  color: white !important;
+  color: var(--global-bg-color) !important;
   font-size: 0.75rem;
   padding: 4px 8px;
 }
@@ -87,6 +96,7 @@
   font-size: 0.85rem;
   margin-right: 0.5rem;
   color: var(--global-text-color);
+  background-color: var(--global-bg-color);
   border: 1px solid var(--global-text-color-light);
   border-radius: 4px;
   transition: all 0.15s ease;
@@ -95,6 +105,7 @@
 .talks .btn:hover {
   color: var(--global-theme-color);
   border-color: var(--global-theme-color);
+  background-color: var(--global-bg-color);
   text-decoration: none;
 }
 
