@@ -9,6 +9,8 @@ permalink: /services/
 
 #### Teaching Assistant
 
+- Attacks Against Machine Learning Models, Summer 2025, Saarland University
+- Data-driven Understanding of the Disinformation Epidemic, Summer 2025, Saarland University
 - Privacy of Machine Learning, Winter 2024, Saarland University
 - Attacks Against Machine Learning Models, Summer 2024, Saarland University
 - Data-driven Understanding of the Disinformation Epidemic, Summer 2024, Saarland University

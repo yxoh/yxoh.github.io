@@ -1,3 +1,7 @@
+- title: "Evaluating Security and Safety in Text-to-Image Models"
+  venue: "MPI-SP"
+  date: "July 2025"
+
 - title: "Synthetic Artifact Auditing: Tracing LLM-Generated Synthetic Data Usage in Downstream Applications"
   venue: "MLCommons"
   date: "May 2025"
