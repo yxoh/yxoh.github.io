@@ -30,7 +30,7 @@ My research focuses on designing and developing trustworthy AI systems, ensuring
 <!-- ## Research Interests
 
 - **Trustworthy AI**
-  - Privacy risks of AI systems
+  - Security and Privacy risks of AI systems
   - Unsafe and biased content generation
 - **Responsible use of AI**
   - Transparency in synthetic data usage

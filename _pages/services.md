@@ -20,10 +20,11 @@ permalink: /services/
 <ul>
   <li>Conference PC/Reviewer: 
    <ul>
-    <li>2025: ACM CCS, ACL, NACCL, CVPR, KDD, AISEC</li>
+    <li>2026: ICLR, ARR</li>
+    <li>2025: ACM CCS, ARR, CVPR, KDD, AISEC</li>
    </ul>
   </li>
-  <li>Journal Reviewer: TIFS, TOPS, TKDE
+  <li>Journal Reviewer: TIFS, TDSC, TOPS, TKDE
   </li>
   <li>External Reviewer: 
     <ul>
