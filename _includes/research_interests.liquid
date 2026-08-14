@@ -1,82 +1,115 @@
 <div class="research-interests">
-  <ul>
-    <li>
-      <strong class="research-topic">
-        <i class="fas fa-shield-alt"></i>
-        <span>Trustworthy AI</span>
-      </strong>
-      <ul>
-        <li><i class="fas fa-angle-right"></i> Security:<a href=".">[ACL'26b]</a>,<a href=".">[ACL'26c]</a></li>
-        <li><i class="fas fa-angle-right"></i> Privacy:<a href="https://arxiv.org/abs/2511.19536">[ACL'26a]</a>,<a href="/papers/usenix24">[USENIX'24]</a>,<a href="/papers/pets24">[PETS'24]</a></li>
-        <li><i class="fas fa-angle-right"></i> Safety:<a href="/papers/ccs24">[CCS'24]</a>,<a href=".">[USENIX'25b]</a></li>
-      </ul>
-    </li>
+  <div class="research-card">
+    <div class="research-card-heading">
+      <i class="fas fa-shield-alt" aria-hidden="true"></i>
+      <h3>AI Security, Privacy, and Transparency</h3>
+    </div>
+    <p>Studying attacks, defenses, and trustworthy mechanisms for foundation models and agentic AI systems.</p>
+    <div class="research-papers">
+      <a href="https://aclanthology.org/2026.findings-acl.566.pdf" title="Peering Behind the Shield">ACL'26b</a>
+      <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/wu-yixin-auditing" title="Synthetic Artifact Auditing">USENIX'25a</a>
+      <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/wu-yixin-generation" title="On the Proactive Generation of Unsafe Images">USENIX'25b</a>
+      <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/wu-yixin" title="Quantifying Privacy Risks of Prompts">USENIX'24</a>
+    </div>
+  </div>
 
-    <li>
-      <strong class="research-topic">
-        <i class="fas fa-shield-alt"></i>
-        <span>Responsible use of AI</span>
-      </strong>
-      <ul>
-        <li><i class="fas fa-angle-right"></i> Transparency in synthetic data usage:<a href="papers/usenix25a/">[USENIX'25a]</a></li>
-        <li><i class="fas fa-angle-right"></i> Misuse of AI-generated content:<a href="https://hatebench.xinyueshen.me/">[USENIX'25c]</a><a href="https://unsafebench.github.io/">[CCS'25]</a></li>
-        <li><i class="fas fa-angle-right"></i> In-the-wild prompt analysis:<a href="/papers/emnlp24">[EMNLP'24]</a></li>
-      </ul>
-    </li>
+  <div class="research-card">
+    <div class="research-card-heading">
+      <i class="fas fa-robot" aria-hidden="true"></i>
+      <h3>AI Agents for Security and Privacy</h3>
+    </div>
+    <p>Building autonomous agents to discover, assess, and mitigate security and privacy risks in real-world systems.</p>
+    <div class="research-papers">
+      <a href="https://arxiv.org/abs/2511.22441" title="GEO-Detective">ECCV'26</a>
+      <a href="https://aclanthology.org/2026.findings-acl.572.pdf" title="InferPilot">ACL'26a</a>
+    </div>
+  </div>
 
-    <li>
-      <strong class="research-topic">
-        <i class="fas fa-shield-alt"></i>
-        <span>Generative Agents for Security, Privacy, and Social Behavior Simulation </span>
-      </strong>
-    </li>
-  </ul>
-
-
+  <div class="research-card">
+    <div class="research-card-heading">
+      <i class="fas fa-chart-line" aria-hidden="true"></i>
+      <h3>AI Measurement and Simulation</h3>
+    </div>
+    <p>Measuring real-world AI use and misuse at scale, and using agent-based simulation to understand social behavior and emerging risks.</p>
+    <div class="research-papers">
+      <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/shen" title="HateBench">USENIX'25c</a>
+      <a href="https://dl.acm.org/doi/10.1145/3719027.3765088" title="UnsafeBench">CCS'25</a>
+      <a href="https://dl.acm.org/doi/10.1145/3658644.3690288" title="Image-Perfect Imperfections">CCS'24</a>
+      <a href="https://aclanthology.org/2024.emnlp-main.1227/" title="The Death and Life of Great Prompts">EMNLP'24</a>
+    </div>
+  </div>
 </div>
 
 <style>
-.research-interests ul {
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
-}
-.research-interests > ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-.research-interests > ul > li {
-  margin-bottom: 1.5rem;
-}
-.research-interests > ul > li > ul {
-  margin-top: 0.5rem;
-  list-style-type: none;
-  padding-left: 1.2rem;
-}
-.research-interests > ul > li > ul > li {
-  margin: 0.4rem 0;
-  color: var(--global-text-color);
-  transition: color 0.3s ease;
+.research-interests {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 0.8rem 0 1.25rem;
 }
 
-.research-interests .fas {
+.research-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--global-theme-color);
+  border-radius: 0.35rem;
+}
+
+.research-card-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin-bottom: 0.55rem;
+}
+
+.research-card-heading i {
+  flex: 0 0 auto;
+  margin-top: 0.2rem;
   color: var(--global-theme-color);
-  margin-right: 0.5rem;
+}
+
+.research-card-heading h3 {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.research-card p {
+  margin-bottom: 0.8rem;
+  color: var(--global-text-color-light);
   font-size: 0.9rem;
-}
-.research-interests > ul > li > ul > li:hover {
-  color: var(--global-theme-color);
-}
-.research-topic {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
+  line-height: 1.5;
 }
 
-.research-topic i {
-  color: var(--global-theme-color);
+.research-papers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: auto;
 }
 
-.research-topic span {
-  color: var(--global-text-color);
+.research-papers a {
+  padding: 0.12rem 0.4rem;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 1rem;
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.research-papers a:hover {
+  color: var(--global-hover-text-color);
+  background: var(--global-theme-color);
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .research-interests {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
