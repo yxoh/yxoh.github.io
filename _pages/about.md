@@ -9,7 +9,7 @@ profile:
   image: profile2.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Guangzhou, China</p>
+    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Guangzhou, China</p>
 
 research_interests: true
 news: true # includes a list of news items
@@ -20,7 +20,7 @@ honors: true
 social: false # hides social icons at the bottom of the page
 ---
 
-I'm an incoming tenure-track faculty member in the AI Thrust, Information Hub of [HKUST(GZ)](https://www.hkust-gz.edu.cn/). I received my Ph.D. from [CISPA Helmholtz Center for Information Security](https://cispa.de/), where I was fortunate to be advised by [Prof. Michael Backes](https://cispa.de/en/people/backes) and [Dr. Yang Zhang](https://yangzhangalmo.github.io/). Before joining CISPA, I received my Bachelor's degree from Sichuan University, where I worked with [Prof. Cheng Huang](https://www.chenghuang.org/).
+I'm an incoming assistant professor in the AI Thrust, Information Hub of [HKUST(GZ)](https://www.hkust-gz.edu.cn/). I received my Ph.D. from [CISPA Helmholtz Center for Information Security](https://cispa.de/), where I was fortunate to be advised by [Prof. Michael Backes](https://cispa.de/en/people/backes) and [Dr. Yang Zhang](https://yangzhangalmo.github.io/). Before joining CISPA, I received my Bachelor's degree from Sichuan University, where I worked with [Prof. Cheng Huang](https://www.chenghuang.org/).
 
 My research focuses on the **security, privacy, and transparency of AI systems** and the use of **AI agents for security and privacy tasks**. I develop algorithms, build autonomous agents, and conduct large-scale empirical analyses to study emerging attacks and defenses, audit AI systems, measure real-world AI use and misuse, and understand social behavior through agent-based simulation.
 
