@@ -8,7 +8,9 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign pinned_news = site.news | where: 'pinned', true | sort: 'date' | reverse %}
+        {% assign regular_news = site.news | where_exp: 'item', 'item.pinned != true' | sort: 'date' | reverse %}
+        {% assign news = pinned_news | concat: regular_news %}
         {% if include.limit and site.announcements.limit %}
           {% assign news_limit = site.announcements.limit %}
         {% else %}
@@ -18,6 +20,10 @@
           <tr>
             <th scope="row" style="width: 85px; padding-right: 0;">{{ item.date | date: "%b %Y" }}</th>
             <td style="padding-left: 10px;">
+              {% if item.pinned %}
+                <i class="fas fa-thumbtack news-pin" aria-hidden="true" title="Pinned"></i>
+                <span class="sr-only">Pinned: </span>
+              {% endif %}
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
@@ -50,5 +56,12 @@
 .news th {
   padding-top: 4px;
   padding-bottom: 4px;
+}
+
+.news-pin {
+  margin-right: 5px;
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+  transform: rotate(-20deg);
 }
 </style>
