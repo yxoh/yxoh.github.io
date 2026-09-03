@@ -20,7 +20,7 @@ honors: true
 social: false # hides social icons at the bottom of the page
 ---
 
-I'm an incoming assistant professor in the AI Thrust, Information Hub of [HKUST(GZ)](https://www.hkust-gz.edu.cn/). I received my Ph.D. from [CISPA Helmholtz Center for Information Security](https://cispa.de/), where I was fortunate to be advised by [Prof. Michael Backes](https://cispa.de/en/people/backes) and [Dr. Yang Zhang](https://yangzhangalmo.github.io/). Before joining CISPA, I received my Bachelor's degree from Sichuan University, where I worked with [Prof. Cheng Huang](https://www.chenghuang.org/).
+I'm an assistant professor in the AI Thrust, Information Hub of [HKUST(GZ)](https://www.hkust-gz.edu.cn/). I received my Ph.D. from [CISPA Helmholtz Center for Information Security](https://cispa.de/), where I was fortunate to be advised by [Prof. Michael Backes](https://cispa.de/en/people/backes) and [Dr. Yang Zhang](https://yangzhangalmo.github.io/). Before joining CISPA, I received my Bachelor's degree from Sichuan University, where I worked with [Prof. Cheng Huang](https://www.chenghuang.org/).
 
 My research focuses on the **security, privacy, and transparency of AI systems** and the use of **AI agents for security and privacy tasks**. I develop algorithms, build autonomous agents, and conduct large-scale empirical analyses to study emerging attacks and defenses, audit AI systems, measure real-world AI use and misuse, and understand social behavior through agent-based simulation.
 
@@ -31,7 +31,7 @@ My research focuses on the **security, privacy, and transparency of AI systems**
 I am looking for self-motivated students to join my group at HKUST(GZ).
 
 - **RAs and MPhil Students:** Immediate openings; current HKUST(GZ) students are especially welcome to apply.
-- **Ph.D. Students:** 3 openings for **Spring/Fall 2027**.
+- **Ph.D. Students:** 3 openings for **Spring or Fall 2027** (**Spring preferred**).
 
 Please drop me an email ([yixinwu@hkust-gz.edu.cn](mailto:yixinwu@hkust-gz.edu.cn)) if you are interested in working with me!
 
