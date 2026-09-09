@@ -31,7 +31,7 @@ My research focuses on the **security, privacy, and transparency of AI systems**
 I am looking for self-motivated students to join my group at HKUST(GZ).
 
 - **RAs and MPhil Students:** Immediate openings; current HKUST(GZ) students are especially welcome to apply.
-- **Ph.D. Students:** 3 openings for **Spring or Fall 2027** (**Spring preferred**).
+- **Ph.D. Students:** 3 openings for **Spring or Fall 2027**.
 
 Please drop me an email ([yixinwu@hkust-gz.edu.cn](mailto:yixinwu@hkust-gz.edu.cn)) if you are interested in working with me!
 
