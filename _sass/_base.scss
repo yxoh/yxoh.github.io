@@ -133,6 +133,24 @@ blockquote {
 }
 
 // Recruitment callout on the about page
+.recruitment-highlight {
+  clear: both;
+  margin: 1.25rem 0 0;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--global-divider-color);
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 0.3rem;
+  font-size: 0.95rem;
+
+  p {
+    margin: 0;
+  }
+
+  + .recruitment-card {
+    margin-top: 0.75rem;
+  }
+}
+
 .recruitment-card {
   clear: both;
   margin: 1.5rem 0;

@@ -24,6 +24,10 @@ I'm an assistant professor in the AI and IoT Thrusts, Information Hub, at [HKUST
 
 My research focuses on the **security, privacy, and transparency of AI systems** and the use of **AI agents for security and privacy tasks**. I develop algorithms, build autonomous agents, and conduct large-scale empirical analyses to study emerging attacks and defenses, audit AI systems, measure real-world AI use and misuse, and understand social behavior through agent-based simulation.
 
+<div class="recruitment-highlight" markdown="1">
+I'm specifically looking for **RAs** to work on **LLM-based agent simulation**.
+</div>
+
 <section class="recruitment-card" markdown="1">
 
 ## Join Us <i class="fas fa-user-plus" aria-hidden="true"></i>

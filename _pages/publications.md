@@ -10,8 +10,15 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
+<h2 class="bibliography">Preprints</h2>
+{% bibliography -f papers -q @*[abbr=arxiv && year>=2025]* --group_by none %}
+
 {%- for y in page.years %}
+  {% if y >= 2025 %}
+  {% bibliography -f papers -q @*[year={{y}} && abbr!=arxiv]* %}
+  {% else %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% endif %}
 {% endfor %}
 
 </div>
