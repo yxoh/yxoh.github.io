@@ -25,17 +25,14 @@ I'm an assistant professor in the AI and IoT Thrusts, Information Hub, at [HKUST
 My research focuses on the **security, privacy, and transparency of AI systems** and the use of **AI agents for security and privacy tasks**. I develop algorithms, build autonomous agents, and conduct large-scale empirical analyses to study emerging attacks and defenses, audit AI systems, measure real-world AI use and misuse, and understand social behavior through agent-based simulation.
 
 <div class="recruitment-highlight" markdown="1">
-I'm specifically looking for **RAs** to work on **LLM-based agent simulation**.
+I'm specifically looking for students interested in **embodied AI security**.
 </div>
 
 <section class="recruitment-card" markdown="1">
 
 ## Join Us <i class="fas fa-user-plus" aria-hidden="true"></i>
 
-I am looking for self-motivated students to join my group at HKUST(GZ).
-
-- **RAs and MPhil Students:** Immediate openings; current HKUST(GZ) students are especially welcome to apply.
-- **Ph.D. Students:** Multiple openings for **Spring or Fall 2027**.
+I am looking for self-motivated students to join my group at HKUST(GZ) as RAs, MPhil, and PhD students.
 
 Please drop me an email ([yixinwu@hkust-gz.edu.cn](mailto:yixinwu@hkust-gz.edu.cn)) if you are interested in working with me!
 
